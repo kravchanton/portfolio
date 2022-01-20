@@ -1,0 +1,17 @@
+.main {
+    height: 800px;
+    background-color: antiquewhite;
+}
+
+
+.text {
+    width: 300px;
+    background-color: beige;
+
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: brown;
+}
