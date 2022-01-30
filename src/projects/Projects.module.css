@@ -1,11 +1,10 @@
-.skillsBlock {
+.projectsBlock {
     min-height: 50vh;
-
     display: flex;
 
 }
 
-.skillsContainer {
+.projectsContainer {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -21,7 +20,7 @@
 
 }
 
-.skillsContainer:before {
+.projectsContainer:before {
     content: "";
     height: 1px;
     width: 100%;
