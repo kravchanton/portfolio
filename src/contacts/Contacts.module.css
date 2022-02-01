@@ -1,11 +1,10 @@
-.projectsBlock {
+.contactsBlock {
     min-height: 50vh;
     display: flex;
-    margin-bottom: 40px;
 
 }
 
-.projectsContainer {
+.contactsContainer {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -21,7 +20,7 @@
 
 }
 
-.projectsContainer:before {
+.contactsContainer:before {
     content: "";
     height: 1px;
     width: 100%;
@@ -29,9 +28,5 @@
 
 }
 
-.items {
-    display: flex;
-    justify-content: space-between;
-}
 
 

@@ -5,14 +5,20 @@ import {Project} from "./project/Project";
 import socialNetwork from '../image/social.jpg'
 
 
+const projects = [
+    {img: socialNetwork, link: 'https://kravchanton.github.io/socialNet/', title: 'Social network'},
+    {img: socialNetwork, link: 'https://kravchanton.github.io/socialNet/', title: 'Social network'}
+]
 
-export const Projects = () =>  {
+
+export const Projects = () => {
     return (
         <div className={styles.projectsBlock}>
             <div className={`${styleContainer.container} ${styles.projectsContainer}`}>
                 <h2 className={styles.title}>Projects</h2>
-            <Project img={socialNetwork} title={'Social network'}/>
-
+              <div className={styles.items}>  {projects.map(e =>
+                  <Project img={e.img} link={e.link} title={e.title}/>
+              )}</div>
             </div>
         </div>
 
