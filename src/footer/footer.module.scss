@@ -1,0 +1,14 @@
+.footerBlock {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: stretch;
+  &:before {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #dce1e4;
+
+  }
+}

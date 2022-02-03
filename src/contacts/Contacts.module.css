@@ -1,6 +1,7 @@
 .contactsBlock {
     min-height: 50vh;
     display: flex;
+    padding-bottom: 30px;
 
 }
 
