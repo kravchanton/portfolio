@@ -4,6 +4,9 @@
   justify-content: center;
   flex-wrap: wrap;
   align-content: stretch;
+  a {
+    padding: 0 10px 0 10px;
+  }
   &:before {
     content: "";
     height: 1px;

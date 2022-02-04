@@ -13,7 +13,7 @@ const projects = [
 
 export const Projects = () => {
     return (
-        <div className={styles.projectsBlock}>
+        <div className={styles.projectsBlock} id='projects'>
             <div className={`${styleContainer.container} ${styles.projectsContainer}`}>
                 <h2 className={styles.title}>Projects</h2>
               <div className={styles.items}>  {projects.map(e =>
