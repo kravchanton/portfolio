@@ -20,6 +20,13 @@
     color: #1e2125;;
 
 }
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+}
 
 .skillsContainer:before {
     content: "";
